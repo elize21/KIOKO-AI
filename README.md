@@ -15,7 +15,7 @@ Manually install ```node_modules``` or use the command ```npm install``` to inst
 <br>The ```node_modules``` are [here](https://drive.google.com/file/d/1xgRIwDVuTklxwdtsx933WfmzqtRxEsGV/view?usp=share_link)
 ```bash
 $ pkg install git nodejs -y
-$ git clone https://github.com/Fortunatusmokaya/DREADED-AI
+$ git clone https://github.com/elize21/DREADED-AI
 $ cd DREADED-AI
 If you did not install the node modules manually then proceed with the command below.
 $ npm install
