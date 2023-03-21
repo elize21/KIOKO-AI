@@ -1,6 +1,6 @@
 const sessionName = "master1";
 const donet = "https://github.com/elize21/MASTER-AI";
-const owner = ["254114018035"]; // This will send a notification once the bot reconnects
+const owner = ["254701118127"]; // This will send a notification once the bot reconnects
 const {
   default: masterConnect,
   useMultiFileAuthState,
