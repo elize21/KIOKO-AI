@@ -85,7 +85,7 @@ This will produce ai-based image according to your query`)
         case "g": case "openai": 
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("I need an openAi API key");
-            if (!text) return reply(`This is Dreaded AI chatbot using Chatgpt API to create almost natural language response to your queries\n\nExample:\n${prefix}${command} Write for me a poem about money`);
+            if (!text) return reply(`This is Master AI chatbot using Chatgpt API to create almost natural language response to your queries\n\nExample:\n${prefix}${command} Write for me a poem about money`);
             const configuration = new Configuration({
               apiKey: setting.keyopenai,
             });
