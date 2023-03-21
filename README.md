@@ -1,4 +1,4 @@
-# DREADED-AI GPT
+# MASTER-AI GPT
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
 
@@ -15,12 +15,12 @@ Manually install ```node_modules``` or use the command ```npm install``` to inst
 <br>The ```node_modules``` are [here](https://drive.google.com/file/d/1xgRIwDVuTklxwdtsx933WfmzqtRxEsGV/view?usp=share_link)
 ```bash
 $ pkg install git nodejs -y
-$ git clone https://github.com/elize21/DREADED-AI
-$ cd DREADED-AI
+$ git clone https://github.com/elize21/MASTER-AI
+$ cd MASTER-AI
 If you did not install the node modules manually then proceed with the command below.
 $ npm install
 ```
-Extract contents of node_modules, from ```node_modules.zip``` to the folder DREADED-AI.
+Extract contents of node_modules, from ```node_modules.zip``` to the folder MASTER-AI.
 
 **Run**
 ```bash
@@ -29,7 +29,7 @@ $ node index.js
 
 
 ## License
-[MIT License](https://github.com/Fortunatusmokaya/DREADED-AI/blob/main/LICENSE)
+[MIT License](https://github.com/elize21/MASTER-AI/blob/main/LICENSE)
 
-Copyright (c) 2023 Dreaded Ai-ChatGpt
+Copyright (c) 2023 Master Ai-ChatGpt
 
