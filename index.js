@@ -1,8 +1,8 @@
-const sessionName = "dreaded1";
-const donet = "https://github.com/Fortunatusmokaya/DREADED-AI";
+const sessionName = "master1";
+const donet = "https://github.com/elize21/MASTER-AI";
 const owner = ["254114018035"]; // This will send a notification once the bot reconnects
 const {
-  default: dreadedConnect,
+  default: masterConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -139,7 +139,7 @@ async function startHisoka() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("DREADED-AI", {
+      figlet.textSync("MASTER-AI", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -152,7 +152,7 @@ async function startHisoka() {
   const client = dreadedConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["CHATGPT - DREADED", "Safari", "5.1.7"],
+    browser: ["CHATGPT - MASTER", "Safari", "5.1.7"],
     auth: state,
   });
 
@@ -278,10 +278,10 @@ async function startHisoka() {
         startHisoka();
       }
     } else if (connection === "open") {
-      console.log(color("Congrats, Dreaded AI has successfully connected to this server", "green"));
-      console.log(color("Follow me on GitHub as Fortunatusmokaya", "red"));
+      console.log(color("Congrats, MASTER AI has successfully connected to this server", "green"));
+      console.log(color("Follow me on GitHub as elize21", "cyan"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot started!\n\nDreaded OpenAi :)\n${donet}` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot started!\n\nMaster OpenAi :)\n${donet}` });
     }
     // console.log('Connected...', update)
   });
